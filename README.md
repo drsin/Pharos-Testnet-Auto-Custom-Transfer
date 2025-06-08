@@ -4,6 +4,7 @@ An automated bot for interacting with the Pharos Testnet, performing swaps, targ
 
 Join : 
 https://testnet.pharosnetwork.xyz/experience?inviteCode=fAs1xvF01cCAwlYT
+
 Features ✨
 Automated Swaps: Performs random swaps between WPHRS and USDC tokens
 
@@ -34,8 +35,8 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/vikitoshi/Pharos-Auto-Bot.git
-cd Pharos-Auto-Bot
+git clone https://github.com/drsin/Pharos-Testnet-Auto-Custom-Transfer.git
+cd Pharos-Testnet-Auto-Custom-Transfer
 Install dependencies:
 
 bash
