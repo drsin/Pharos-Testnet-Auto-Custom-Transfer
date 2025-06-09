@@ -5,7 +5,7 @@ An automated bot for interacting with the Pharos Testnet, performing swaps, targ
 Join : 
 https://testnet.pharosnetwork.xyz/experience?inviteCode=fAs1xvF01cCAwlYT
 
-Features ✨
+✨Features 
 Automated Swaps: Performs random swaps between WPHRS and USDC tokens
 
 Targeted PHRS Transfers: Sends small amounts of PHRS to a predefined list of addresses from addresses.txt
@@ -18,71 +18,62 @@ Proxy Support: Rotates proxies for each operation (if provided)
 
 Multi-wallet Support: Processes multiple wallets sequentially
 
-Prerequisites 📋
-Node.js (v18 or higher)
+📋Prerequisites 
 
-npm or yarn
+`Node.js` (v18 or higher)
+
+`npm or yarn`
 
 Pharos Testnet wallet with private keys
 
-addresses.txt file containing one address per line (used for PHRS transfers)
+`addresses.txt` file containing one address per line (used for PHRS transfers)
 
 (Optional) Proxy list in proxies.txt
 
 Installation ⚙️
 Clone the repository:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/drsin/Pharos-Testnet-Auto-Custom-Transfer.git
+```
+
+```bash
 cd Pharos-Testnet-Auto-Custom-Transfer
+```
+
 Install dependencies:
-
-bash
-Copy
-Edit
+```bash
 npm install
+```
 Create a .env file in the root directory with your private keys:
-
-ini
-Copy
-Edit
+```bash
 PRIVATE_KEY_1=your_first_private_key_here
 PRIVATE_KEY_2=your_second_private_key_here
+```
 Add your recipient addresses to addresses.txt, one per line:
-
-python-repl
-Copy
-Edit
+```bash
 0xRecipientAddress1
 0xRecipientAddress2
-...
+```
+
 (Optional) Add proxies to proxies.txt, one per line:
 
-perl
-Copy
-Edit
+```bash
 http://user:pass@ip:port
 socks5://user:pass@ip:port
-Configuration ⚙️
+```
+⚙️Configuration 
 The bot comes with default settings for the Pharos Testnet, but you can modify:
-
 Network RPC URL in networkConfig
-
 Contract addresses in tokens object
-
 Swap amounts in performSwap function
-
 Transfer amounts in transferPHRS function
 
 Usage 🚀
 Run the bot:
-
-bash
-Copy
-Edit
+```bash
 node index.js
+```
 The bot will:
 
 Display a banner with project info
@@ -95,7 +86,7 @@ Claim faucet (if available)
 
 Perform daily check-in
 
-Execute 10 PHRS transfers to addresses from addresses.txt
+Execute 10 PHRS transfers to addresses from `addresses.txt`
 
 Execute 10 token swaps
 
@@ -132,4 +123,4 @@ Disclaimer ⚠️
 This software is provided "as is" without warranties. Use at your own risk. The developers are not responsible for any losses or issues caused by using this bot.
 
 License 📄
-MIT License – See LICENSE file for details.
+MIT License – See LICENSE file for details. @drsin
