@@ -45,7 +45,7 @@ Install dependencies:
 ```bash
 npm install
 ```
-Create a .env file in the root directory with your private keys (use : `touch .env`) :
+Create a .env file in the root directory with your private keys (use : `touch .env` then `nano .env`) :
 ```bash
 PRIVATE_KEY_1=your_first_private_key_here
 PRIVATE_KEY_2=your_second_private_key_here
